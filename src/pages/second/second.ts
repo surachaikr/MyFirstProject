@@ -8,7 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   templateUrl: 'second.html',
 })
 export class SecondPage {
-
+ 
   profileForm: FormGroup;
   output: string = 'no data';
   constructor(public formBuilder: FormBuilder) {
