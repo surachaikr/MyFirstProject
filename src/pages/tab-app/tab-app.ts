@@ -16,7 +16,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 export class TabAppPage {
 
   firstRoot = 'FirstPage'
-  secondRoot = 'SecondPage'
+  secondRoot = 'deeplinks-demo'
   thirdRoot = 'ThirdPage'
 
 
