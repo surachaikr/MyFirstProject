@@ -8,21 +8,23 @@ import { HttpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { AComComponent } from '../components/a-com/a-com';
-import { PProvideProvider } from '../providers/p-provide/p-provide';
 
+import { PProvideProvider } from '../providers/p-provide/p-provide';
 import { PipesModule } from '../pipes/pipes.module';
+
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    AComComponent
+    HomePage
   ],
   imports: [
     BrowserModule,
     HttpModule,
     PipesModule,
+    ComponentsModule,
+
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
